@@ -1,3 +1,10 @@
+body{
+	background-image: url("geometry2.png");
+}
+h1{
+	font-family: Arial;
+	text-align: center;
+}
 div{
 	float: left;
 	position: relative;
@@ -5,8 +12,7 @@ div{
 img{
 	border:1px black solid;
 	margin: 10px;
-	-webkit-filter:brightness(60%);
-
+	-webkit-filter:brightness(50%);
 }
 hr{
 	height: 3px;
@@ -17,8 +23,9 @@ hr{
 .salto{
 	clear: left;
 }
-.texto{
+p{
 	color: white;
+	font-family: Arial;
 	position: absolute;
 	bottom: 0;
 	right: 15px;
