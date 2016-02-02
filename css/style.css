@@ -11,23 +11,31 @@ div{
 }
 img{
 	border:1px black solid;
-	margin: 10px;
+	margin: 20px;
 	-webkit-filter:brightness(50%);
+	border-radius: 100px;
 }
 hr{
 	height: 3px;
 	width: 70px;
 	background-color: black;
-	margin-left: 10px;
+	margin-left: 20px;
+}
+p{
+	margin:10px;
+	text-align: center;
+	color: black;
+	font-family: Arial;
+	position: relative;
+	bottom: 0;
+	right: 15px;
 }
 .salto{
 	clear: left;
 }
-p{
-	color: white;
-	font-family: Arial;
-	position: absolute;
-	bottom: 0;
-	right: 15px;
+.CuadroPrincipal{
+	background-color: #D8D8D8;
+	padding: 20px;
+	border-radius: 10px;
 }
 
